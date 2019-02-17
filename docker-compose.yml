@@ -1,0 +1,12 @@
+Jekyll:
+  image: jekyll/jekyll
+  container_name: ucsk-landingpage-dev
+  ports:
+    - 4000:4000
+  volumes:
+    - .:/srv/jekyll
+    - ./vendor/bundle:/usr/local/bundle
+  command: jekyll serve --config _config.yml,_config-devenv.yml
+  environment:
+    - TZ=Europe/Berlin
+    - LANG=C.UTF-8
