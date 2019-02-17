@@ -1,4 +1,4 @@
-Jekyll:
+Jekyll-Dev:
   image: jekyll/jekyll
   container_name: ucsk-landingpage-dev
   ports:

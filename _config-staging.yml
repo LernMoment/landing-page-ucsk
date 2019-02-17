@@ -1,0 +1,4 @@
+# adapt configuration to staging environment on server
+url: https://staging2.lernmoment.de
+future: false
+google_analytics_key:
