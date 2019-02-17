@@ -1,0 +1,5 @@
+# adapt configuration to development environment within docker
+url: http://0.0.0.0:4000
+# future: true
+
+google_analytics_key:
