@@ -37,11 +37,6 @@
 				</div>
 
 				<div class="contact">
-					<address>
-						<a href="https://www.google.com/maps/place/{{ site.data.company.address | url_encode }}">
-							{% include icons/footer.html icon="place" %} {{ site.data.company.address }}
-						</a>
-					</address>
 					<p class="email">
 						<a href="mailto:{{ site.data.company.email }}">
 							{% include icons/footer.html icon="email" %} {{ site.data.company.email }}
@@ -55,14 +50,11 @@
 				</div>
 
 				<div class="sharing">
-					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
-						{% include icons/social-media.html social_icon="facebook" %}
+					<a class="youtube" href="https://www.youtube.com/{{ site.data.company.youtube }}">
+						{% include icons/social-media.html social_icon="youtube" %}
 					</a>
-					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
-						{% include icons/social-media.html social_icon="twitter" %}
-					</a>
-					<a class="google-plus" href="https://plus.google.com/{{ site.data.company.google_plus }}">
-						{% include icons/social-media.html social_icon="google-plus" %}
+					<a class="github" href="https://github.com/{{ site.data.company.github }}">
+						{% include icons/social-media.html social_icon="github" %}
 					</a>
 				</div>
 			</div>

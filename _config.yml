@@ -1,22 +1,22 @@
 # ----
 # Site
 
-title: "Einstieg in C#"
+title: "Einstieg in C# - Software programmieren wie ein Profi"
 url: https://einstieg-in-csharp.lernmoment.de
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a not-for-profit organisation.
+description: "Egal ob Spiele, Web-, Mobile- oder Desktop-Apps - Du brauchst Methodik und die Grundlagen von C#. Beides lernst du hier."
 author:
-  name:
-  email:
+  name: Jan Suchotzki
+  email: jan@lernmoment.de
   twitter: # twitter username without the @ symbol
 social:
-  name: Cause Template
+  name: LernMoment.de
   links:
-    - https://github.com/CloudCannon/cause-jekyll-template
+    - https://LernMoment.de
 
 # -----
 # Build
